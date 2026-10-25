@@ -1,0 +1,52 @@
+{
+  "recordedAt": "2026-10-23T02:15:22.261Z",
+  "runtime": "v24.22.1",
+  "platform": "win32",
+  "arch": "x64",
+  "results": [
+    {
+      "name": "types",
+      "status": 0,
+      "durationMs": 1217,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "tests",
+      "status": 0,
+      "durationMs": 1765,
+      "stdout": "✔ Argon2id agrees with independent libsodium implementation at candidate parameters (407.7001ms)\n✔ AES-256-GCM decrypts the zero-key known-answer vector (4.1341ms)\n✔ password, recovery, rewrapping, wrong credentials and untrusted KDF limits (1057.3069ms)\n✔ draft roundtrip binds identity, generation, content key and ciphertext (4.1775ms)\n✔ draft size limit applies to UTF-8 bytes (3.3055ms)\n✔ real file journal serialises saves and rejects an incomplete newest write (98.1645ms)\n✔ failed write is not acknowledged and does not prevent a later save (28.2203ms)\n✔ confirmed draft survives process termination and unlock in a new process (820.3678ms)\n✔ secretstream roundtrip including empty content and independent restart (22.7481ms)\n✔ secretstream rejects missing, reordered, duplicated, altered and appended parts (3.7502ms)\n✔ HTTP retry reuses sealed ciphertext; stream restart gets a new header (122.7294ms)\nℹ tests 11\nℹ suites 0\nℹ pass 11\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 1681.9167\n",
+      "stderr": ""
+    },
+    {
+      "name": "plugin-build",
+      "status": 0,
+      "durationMs": 129,
+      "stdout": "{\n  \"inputs\": 4,\n  \"bytes\": 56480,\n  \"forbiddenInputs\": [],\n  \"external\": \"obsidian\",\n  \"installation\": \"manual disposable vault only\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "browser",
+      "status": 0,
+      "durationMs": 4361,
+      "stdout": "{\n  \"browser\": \"155.0.4283.62\",\n  \"crossRuntime\": \"Node ↔ Chromium passed\",\n  \"argon2Vector\": \"c8a0c730e8f4d07c8b31ba460a5d13beacc9a08d66cdc74f336ce75831a465e3\",\n  \"browserCreateMs\": 181,\n  \"reloadedFileRecovery\": {\n    \"generation\": 1,\n    \"rejected\": 0\n  },\n  \"secretstream\": \"passed\",\n  \"limitation\": \"OPFS harness only; does not run Obsidian or prove mobile compatibility.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "benchmark",
+      "status": 0,
+      "durationMs": 1367,
+      "stdout": "{\n  \"runtime\": \"v24.22.1\",\n  \"platform\": \"win32\",\n  \"arch\": \"x64\",\n  \"createMs\": 193,\n  \"unlockMs\": 182,\n  \"results\": [\n    {\n      \"megabytes\": 8,\n      \"partBytes\": 262144,\n      \"elapsedMs\": 61,\n      \"baselineRssMiB\": 131,\n      \"sampledPeakRssMiB\": 148,\n      \"peakIncreaseMiB\": 17\n    },\n    {\n      \"megabytes\": 128,\n      \"partBytes\": 262144,\n      \"elapsedMs\": 765,\n      \"baselineRssMiB\": 148,\n      \"sampledPeakRssMiB\": 160,\n      \"peakIncreaseMiB\": 12\n    }\n  ],\n  \"limitation\": \"Sequential in-process pipeline; excludes network, host file APIs, power loss and mobile devices. RSS sampling is not a memory bound.\"\n}\n",
+      "stderr": ""
+    }
+  ],
+  "pending": [
+    "Real Obsidian host",
+    "Android/iOS hardware",
+    "Native IME",
+    "Mobile file and network APIs",
+    "Protocol v0 and metadata privacy ADR",
+    "Production key-pack crash safety",
+    "Durable attachment spool and resume"
+  ]
+}

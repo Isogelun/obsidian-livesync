@@ -1,5 +1,7 @@
 # Self-hosted LiveSync
 
+开发者阅读入口：[Repo Wiki（中文）](docs/repo_wiki/README.md)，介绍当前仓库结构、启动与同步流程、加密恢复，以及开发测试方式。
+
 Self-hosted LiveSync (自搭建在线同步) 是一个社区实现的在线同步插件。  
 它利用诸如CouchDB或对象存储系统（例如MinIO、S3、R2等）等强大的服务器解决方案，以确保数据同步的可靠性。。兼容所有支持 Obsidian 的平台。
 

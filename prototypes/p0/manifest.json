@@ -1,0 +1,9 @@
+{
+  "id": "livesync-cloud-p0-validation",
+  "name": "Cloud Notes P0 Validation",
+  "version": "0.0.0",
+  "minAppVersion": "1.7.2",
+  "description": "Isolated encrypted draft validation prototype for disposable test vaults.",
+  "author": "Self-hosted LiveSync contributors",
+  "isDesktopOnly": false
+}
